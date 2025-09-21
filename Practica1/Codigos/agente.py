@@ -11,7 +11,7 @@ class agente:
 
     def __definirPatronVision(self, tipo):
         if tipo == "Agente P":
-            return np.array([[1,0,1],
+            return np.array([[1,0,0],
                             [0,1,0],
                             [1,0,1]])
         if tipo == "SuperSayayin":
