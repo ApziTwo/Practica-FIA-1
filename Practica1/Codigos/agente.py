@@ -13,7 +13,7 @@ class agente:
         if tipo == "Agente P":
             return np.array([[1,0,0],
                             [0,1,0],
-                            [1,0,1]])
+                            [1,0,0]])
         if tipo == "SuperSayayin":
             return np.array([[1,1,1],
                             [1,1,1],
